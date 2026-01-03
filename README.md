@@ -47,7 +47,7 @@ Wahlen Sie Ihren Bereich und laden Sie die entsprechende ICS-Datei herunter:
 ## GitHub Pages
 
 Diese Seite ist auch als Webseite verfugbar:
-[https://IHR-USERNAME.github.io/abfallkalender-elsdorf-2026/](https://IHR-USERNAME.github.io/abfallkalender-elsdorf-2026/)
+[https://jankoit.github.io/abfallkalender-elsdorf-2026/](https://jankoit.github.io/abfallkalender-elsdorf-2026/)
 
 ## Hinweis
 
