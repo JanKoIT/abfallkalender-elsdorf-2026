@@ -6,13 +6,13 @@ ICS-Kalenderdateien fur die Abfallabholung in Elsdorf (NRW) fur das Jahr 2026.
 
 Wahlen Sie Ihren Bereich und laden Sie die entsprechende ICS-Datei herunter:
 
-| Bereich | Wochentag | Download |
-|---------|-----------|----------|
-| Bereich 1 | Dienstag | [Abfallkalender_2026_Bereich1.ics](Abfallkalender_2026_Bereich1.ics) |
-| Bereich 2 | Mittwoch | [Abfallkalender_2026_Bereich2.ics](Abfallkalender_2026_Bereich2.ics) |
-| Bereich 3 | Donnerstag | [Abfallkalender_2026_Bereich3.ics](Abfallkalender_2026_Bereich3.ics) |
-| Bereich 4 | Freitag | [Abfallkalender_2026_Bereich4.ics](Abfallkalender_2026_Bereich4.ics) |
-| Bereich 5 | Montag | [Abfallkalender_2026_Bereich5.ics](Abfallkalender_2026_Bereich5.ics) |
+| Bereich | Ortschaften | Download |
+|---------|-------------|----------|
+| 1 | Elsdorf, Desdorf | [Abfallkalender_2026_Bereich1.ics](Abfallkalender_2026_Bereich1.ics) |
+| 2 | Niederembt, Oberembt, Tollhausen, Neu-Etzweiler, Frankeshoven | [Abfallkalender_2026_Bereich2.ics](Abfallkalender_2026_Bereich2.ics) |
+| 3 | Esch, Angelsdorf | [Abfallkalender_2026_Bereich3.ics](Abfallkalender_2026_Bereich3.ics) |
+| 4 | Berrendorf, Grouven | [Abfallkalender_2026_Bereich4.ics](Abfallkalender_2026_Bereich4.ics) |
+| 5 | Heppendorf, Giesendorf, Widdendorf | [Abfallkalender_2026_Bereich5.ics](Abfallkalender_2026_Bereich5.ics) |
 
 ## Enthaltene Abfallarten
 
