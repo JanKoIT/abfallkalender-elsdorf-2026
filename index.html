@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abfallkalender 2026 - Elsdorf</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        header {
+            background: #2d3748;
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #eee;
+        }
+        .intro p {
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .download-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid transparent;
+        }
+        .download-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-color: #667eea;
+        }
+        .download-card h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .download-card .icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s, transform 0.2s;
+        }
+        .download-btn:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+        .info-section {
+            background: #f0f4f8;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .info-section h2 {
+            color: #2d3748;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        .waste-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .waste-type {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+        }
+        .waste-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .waste-dot.grau { background: #6b7280; }
+        .waste-dot.braun { background: #92400e; }
+        .waste-dot.gelb { background: #fbbf24; }
+        .waste-dot.blau { background: #3b82f6; }
+        .waste-dot.gruen { background: #22c55e; }
+        .waste-dot.orange { background: #f97316; }
+        .waste-dot.rot { background: #ef4444; }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .instructions {
+            background: #e8f4fd;
+            border-left: 4px solid #3b82f6;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .instructions h3 {
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        .instructions ol {
+            margin-left: 20px;
+            color: #1e3a5f;
+        }
+        .instructions li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Abfallkalender 2026</h1>
+            <p>Stadt Elsdorf - Alle Bereiche</p>
+        </header>
+
+        <div class="content">
+            <div class="intro">
+                <p>Laden Sie den Abfallkalender fur Ihren Bereich als ICS-Datei herunter und importieren Sie ihn in Ihren Kalender (Google, Apple, Outlook, etc.).</p>
+            </div>
+
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="icon">1</div>
+                    <h3>Bereich 1</h3>
+                    <p style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Dienstag</p>
+                    <a href="Abfallkalender_2026_Bereich1.ics" class="download-btn" download>Download .ics</a>
+                </div>
+
+                <div class="download-card">
+                    <div class="icon">2</div>
+                    <h3>Bereich 2</h3>
+                    <p style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Mittwoch</p>
+                    <a href="Abfallkalender_2026_Bereich2.ics" class="download-btn" download>Download .ics</a>
+                </div>
+
+                <div class="download-card">
+                    <div class="icon">3</div>
+                    <h3>Bereich 3</h3>
+                    <p style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Donnerstag</p>
+                    <a href="Abfallkalender_2026_Bereich3.ics" class="download-btn" download>Download .ics</a>
+                </div>
+
+                <div class="download-card">
+                    <div class="icon">4</div>
+                    <h3>Bereich 4</h3>
+                    <p style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Freitag</p>
+                    <a href="Abfallkalender_2026_Bereich4.ics" class="download-btn" download>Download .ics</a>
+                </div>
+
+                <div class="download-card">
+                    <div class="icon">5</div>
+                    <h3>Bereich 5</h3>
+                    <p style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Montag</p>
+                    <a href="Abfallkalender_2026_Bereich5.ics" class="download-btn" download>Download .ics</a>
+                </div>
+            </div>
+
+            <div class="instructions">
+                <h3>So importieren Sie den Kalender:</h3>
+                <ol>
+                    <li>Laden Sie die ICS-Datei fur Ihren Bereich herunter</li>
+                    <li>Offnen Sie Ihre Kalender-App (Google Calendar, Apple Kalender, Outlook, etc.)</li>
+                    <li>Importieren Sie die heruntergeladene .ics-Datei</li>
+                    <li>Alle Abfuhrtermine werden automatisch in Ihren Kalender eingetragen</li>
+                </ol>
+            </div>
+
+            <div class="info-section">
+                <h2>Enthaltene Abfallarten</h2>
+                <div class="waste-types">
+                    <div class="waste-type">
+                        <div class="waste-dot grau"></div>
+                        <span>Hausmuell (14-tagig)</span>
+                    </div>
+                    <div class="waste-type">
+                        <div class="waste-dot braun"></div>
+                        <span>Biotonne</span>
+                    </div>
+                    <div class="waste-type">
+                        <div class="waste-dot gelb"></div>
+                        <span>Gelbe Tonne (14-tagig)</span>
+                    </div>
+                    <div class="waste-type">
+                        <div class="waste-dot blau"></div>
+                        <span>Blaue Tonne (Altpapier)</span>
+                    </div>
+                    <div class="waste-type">
+                        <div class="waste-dot gruen"></div>
+                        <span>Grunabfall (4x jahrlich)</span>
+                    </div>
+                    <div class="waste-type">
+                        <div class="waste-dot orange"></div>
+                        <span>Elektroschrott (4x jahrlich)</span>
+                    </div>
+                    <div class="waste-type">
+                        <div class="waste-dot rot"></div>
+                        <span>Schadstoff</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Abfallkalender 2026 - Stadt Elsdorf</p>
+            <p style="margin-top: 10px;">Alle Angaben ohne Gewahr.</p>
+        </footer>
+    </div>
+</body>
+</html>
